@@ -9,7 +9,7 @@ void GameScreen::init()
 {
 
 }
-//Handle input 
+//Handle input with delta time
 void GameScreen::handleInput(double deltatime)
 {
 
