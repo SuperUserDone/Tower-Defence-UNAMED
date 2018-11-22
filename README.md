@@ -2,6 +2,12 @@
 
 A simple 2D tower defence game inspired by Mindustry written in C++.
 
+# Dependencies
+
+[SFML](https://www.sfml-dev.org/)
+
+[LibThor](https://github.com/Bromeon/Thor)
+
 # Building
 
 Clone repository localy.
