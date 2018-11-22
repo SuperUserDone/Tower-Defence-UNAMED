@@ -30,7 +30,7 @@ void TitleScreen::loop(sf::RenderWindow* window)
 //Handle input
 void TitleScreen::handleInput(double deltatime)
 {
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::G))
         cScreen = ScreensType::Game;
 }
 //Cleanup before exit/switch
