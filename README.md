@@ -6,12 +6,22 @@ A simple 2D tower defence game inspired by Mindustry written in C++.
 
 Clone repository localy.
 Create Build directory:
-    mkdir build
+```
+mkdir build
+```
 Cd into build directory:
-    cd build
-Run Cmake
-    cmake ..
+```
+cd build
+```
+Run Cmake:
+```
+cmake ..
+```
 or
-    cmake-gui ..
+```
+cmake-gui ..
+```
 Compile
-    make
+```
+make
+```
