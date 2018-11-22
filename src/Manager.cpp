@@ -1,5 +1,7 @@
 #include "Manager.h"
 
+#include "icon.h"
+
 Manager::Manager()
 {
     //ctor
@@ -19,7 +21,7 @@ void Manager::init()
 //Loads basic resources(splash etc)
 void Manager::loadBasic()
 {
-
+    window.setIcon(gimp_image.width, gimp_image.height, gimp_image.pixel_data);
 }
 //Loads Advanced resources(Level)
 void Manager::load()
