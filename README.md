@@ -36,8 +36,13 @@ or
 cmake-gui ..
 ```
 
-Compile
+Compile:
 
 ```
 make
+```
+
+Copy data files to executeable directory:
+```
+cp ../Data ./Data
 ```
